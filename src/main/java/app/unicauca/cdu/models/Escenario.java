@@ -17,7 +17,8 @@ public class Escenario {
 	@Column(name = "esc_nombre")
 	private String esc_nombre;
 
-	@Column(name = "esc_descripcion")
+	
+	@Column(name = "esc_descripcion", length = 100000)
 	private String esc_descripcion;
 
 	@Column(name = "esc_foto", length = 100000000)
